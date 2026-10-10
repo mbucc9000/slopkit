@@ -1,0 +1,20 @@
+Origin: slopkit
+Label: slopkit
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: slopkit is homemade tweaks for iOS 6, cooked up with Claude.
+MD5Sum:
+ 646bf22aa739db66db2096753ef02be1 2857 Packages
+ 497c2c8685e735daf0d1ddbe7a598113 1508 Packages.gz
+ 61d3476f4a0376d425ec50895c9cd21e 1586 Packages.bz2
+SHA1:
+ c69f3815c6ccded5aefec00707b26149b318d070 2857 Packages
+ 95b834170775e6bd4278100985d010a70ac1a47b 1508 Packages.gz
+ e5e5b2b47f479387314549798e6fc687cc60eb37 1586 Packages.bz2
+SHA256:
+ aa6c54c755347f61cac04e41a4598fccdd170f27f19bfcddfe60869b80a64113 2857 Packages
+ afc71b7bf16be69e1bf4b2f59f64380b49957b8929a0006546872c1b57282b16 1508 Packages.gz
+ 79b5a6b4f6e640b3202f8d43fdd0db1db46b882a8e45715684545c45ca17d7cd 1586 Packages.bz2

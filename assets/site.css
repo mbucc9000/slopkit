@@ -1,0 +1,216 @@
+/* slopkit: iOS 6 grouped-table look. Plain CSS that iOS 6 Safari / Cydia's web view can render
+   (no flexbox, grid or custom properties), and that also holds up in a desktop browser. */
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #c5ccd4 url(stripes.png) repeat;
+  background-size: 7px 1px;
+  color: #000;
+  font: 17px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a { color: inherit; text-decoration: none; }
+img { border: 0; }
+
+/* Navigation bar */
+.bar {
+  position: relative;
+  height: 44px;
+  background: #8059df;
+  background-image: -webkit-linear-gradient(top, #ad8cf3 0%, #8d66e6 50%, #7c53df 51%, #6c42d4 100%);
+  background-image: linear-gradient(to bottom, #ad8cf3 0%, #8d66e6 50%, #7c53df 51%, #6c42d4 100%);
+  border-bottom: 1px solid #45229e;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 1px 3px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 1px 3px rgba(0, 0, 0, .3);
+}
+.bar h1 {
+  margin: 0 90px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.back {
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  height: 28px;
+  padding: 0 9px 0 5px;
+  border: 1px solid rgba(40, 10, 110, .75);
+  border-left: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  background: #7a50dc;
+  background-image: -webkit-linear-gradient(top, #9f7bef 0%, #7d55de 50%, #6c43d5 51%, #5d36c6 100%);
+  background-image: linear-gradient(to bottom, #9f7bef 0%, #7d55de 50%, #6c43d5 51%, #5d36c6 100%);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 0 rgba(255, 255, 255, .25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 0 rgba(255, 255, 255, .25);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 28px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .45);
+}
+.back:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid rgba(40, 10, 110, .75);
+  border-bottom: 1px solid rgba(40, 10, 110, .75);
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+  background: #7a50dc;
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #9f7bef), color-stop(.5, #7d55de), color-stop(.51, #6c43d5), color-stop(1, #5d36c6));
+  background-image: linear-gradient(135deg, #9f7bef 0%, #7d55de 50%, #6c43d5 51%, #5d36c6 100%);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.back span { position: relative; }
+.back:active, .back:active:before { background: #5530b4; }
+
+/* Page and groups */
+.page {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 10px 10px 6px;
+}
+.page h2 {
+  margin: 21px 10px 7px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #4c566c;
+  text-shadow: 0 1px 0 #fff;
+}
+.group {
+  margin: 0 0 10px;
+  background: #fff;
+  border: 1px solid #a8acb2;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+  overflow: hidden;
+}
+.group + .group { margin-top: 20px; }
+.gfoot {
+  margin: 8px 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #4c566c;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* Cells */
+.cell {
+  display: block;
+  position: relative;
+  min-height: 44px;
+  padding: 0 10px;
+  border-top: 1px solid #e0e0e0;
+  color: #000;
+}
+.cell:first-child { border-top: 0; }
+.label {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 44px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.link { padding-right: 30px; }
+.link.ic-cell { padding-right: 74px; }
+.sub .label { padding-top: 6px; line-height: 21px; }
+.subtitle {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7f7f7f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ic {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  margin-top: -17px;
+}
+.chev {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -5px;
+  border-top: 3px solid #7d7d7d;
+  border-right: 3px solid #7d7d7d;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.value .label { margin-right: 46%; }
+.value .detail {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  max-width: 62%;
+  font-size: 17px;
+  line-height: 44px;
+  color: #385487;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.plain .label { font-weight: normal; }
+
+/* iOS 6 blue selection */
+a.cell:active {
+  background: #058cf5;
+  background-image: -webkit-linear-gradient(top, #058cf5, #015ee6);
+  background-image: linear-gradient(to bottom, #058cf5, #015ee6);
+  color: #fff;
+}
+a.cell:active .subtitle, a.cell:active .detail { color: #fff; }
+a.cell:active .chev { border-color: #fff; }
+
+/* Text cards */
+.card { padding: 11px 12px 13px; }
+.brand { font-size: 20px; font-weight: bold; line-height: 29px; }
+.brand img { width: 29px; height: 29px; margin: -3px 5px 0 0; vertical-align: middle; }
+.card p { margin: 9px 0 0; font-size: 17px; line-height: 22px; }
+.card p.small { font-size: 15px; line-height: 20px; }
+.card ul { margin: 8px 0 0; padding: 0 0 0 20px; }
+.card ul:first-child { margin-top: 0; }
+.card ul:first-child li:first-child { margin-top: 0; }
+.card li { margin: 5px 0 0; font-size: 15px; line-height: 20px; }
+.card .ver { margin: 0; font-size: 15px; font-weight: bold; line-height: 20px; }
+.card .ver span { font-weight: normal; color: #7f7f7f; }
+
+/* Footer */
+.foot {
+  margin: 22px 0 26px;
+  font-size: 15px;
+  text-align: center;
+  color: #4c566c;
+  text-shadow: 0 1px 0 #fff;
+}
+.foot img { margin: -2px 0 0 3px; vertical-align: middle; }
+.mark img { width: 16px; height: 16px; margin: -2px 3px 0 0; vertical-align: middle; }
+
+/* In Cydia the depiction sits under Cydia's own bar */
+.cydia .page { padding-top: 6px; }
