@@ -16,6 +16,26 @@ MD5sum: 3b2b04429b47338888ce800d08836d73
 SHA1: ef9bf887df3f064ba2b0ae4d3340ab062e1d70a5
 SHA256: 776939c652c18027b84a584099b29a4c5b7645a6c50e910f217dbd5be4a73e83
 
+Package: com.mbucc9000.keytick
+Version: 3.0.1
+Architecture: iphoneos-arm
+Name: KeyTick
+Description: Key-tap haptics, a space-bar trackpad and swipe typing for the stock keyboard. Replaces SwipeType.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.mbucc9000.spacecursor, com.mbucc9000.swipetype
+Replaces: com.mbucc9000.spacecursor, com.mbucc9000.swipetype
+Installed-Size: 699
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.keytick.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.keytick/depiction.html?66a156fb64
+Filename: debs/com.mbucc9000.keytick_3.0.1_iphoneos-arm.deb
+Size: 218554
+MD5sum: ddd4d5dc56435ff53d35f0a4f5713452
+SHA1: 76020f40b2d103ed0c3537fc8e1ff47fa1fb837c
+SHA256: 9c7bf9b70fd87f70480888ba6f5df108a16ef42d5eaebbc1441d0268a3fcea41
+
 Package: com.mbucc9000.cameraflip
 Version: 2.2.0
 Architecture: iphoneos-arm
