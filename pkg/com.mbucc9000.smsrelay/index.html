@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SMS Relay - slopkit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="../../assets/slopkit.png">
+<link rel="icon" type="image/png" href="../../assets/favicon.png">
+<link rel="stylesheet" href="../../assets/site.css?v=e22c47f5ae">
+</head>
+<body ontouchstart="">
+<div class="bar"><a class="back" href="../../index.html"><span>slopkit</span></a><h1>SMS Relay</h1></div>
+<div class="page">
+<div class="group">
+<div class="card"><div class="brand"><img src="../../assets/icons/com.mbucc9000.smsrelay.png" alt="">SMS Relay</div><p>Your main iPhone&#x27;s 2FA codes, on this one.</p></div>
+</div>
+<h2>Install</h2>
+<div class="group">
+<a class="cell link ic-cell" href="cydia://package/com.mbucc9000.smsrelay"><span class="label">Open in Cydia</span><img class="ic" src="../../assets/icons/cydia.png" width="34" height="34" alt=""><i class="chev"></i></a>
+<a class="cell link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mbucc9000.github.io/slopkit/"><span class="label">Add slopkit to Cydia</span><i class="chev"></i></a>
+</div>
+<h2>Compatibility</h2>
+<div class="group">
+<div class="cell value"><span class="label">iOS</span><span class="detail">6.0 – 6.1.6</span></div>
+<div class="cell value"><span class="label">Architecture</span><span class="detail">32-bit (armv7)</span></div>
+</div>
+<h2>Package</h2>
+<div class="group">
+<div class="cell value"><span class="label">Version</span><span class="detail">1.0.3</span></div>
+<div class="cell value"><span class="label">Updated</span><span class="detail">2026-10-14</span></div>
+<div class="cell value"><span class="label">Size</span><span class="detail">16 KB</span></div>
+<div class="cell value"><span class="label">Section</span><span class="detail">Tweaks</span></div>
+</div>
+<p class="gfoot">com.mbucc9000.smsrelay</p>
+<h2>What it does</h2>
+<div class="group">
+<div class="card"><p class="small">Login and 2FA codes texted to your main iPhone&#x27;s number show up on this iPhone, as a notification from the real sender.</p><ul><li>A Shortcuts automation on your main iPhone forwards only code texts, over iMessage, to your own number.</li><li>SMS Relay rewrites that notification to show the real sender and the text.</li><li>The code goes straight to the clipboard.</li><li>If the same code also arrives as an iMessage, the second copy is hidden.</li></ul></div>
+</div>
+<h2>Main iPhone setup</h2>
+<div class="group">
+<div class="card"><ol><li>On your main iPhone: Shortcuts › Automation › New › Message. Message Contains: a single space. Run Immediately, Notify off.</li><li>Add Match Text on the message&#x27;s Content, with the pattern below.</li><li>Add If (Matches has any value) › Send Message to your own number: “[SMS] ”, the Sender, a line break, then the Content.</li><li>Mute your own-number chat on the main iPhone.</li></ol><pre>(?is)^(?!\s*\[SMS\])(?=.*(\b(code|passcode|pin|otp|2fa|mfa)\b|verif|one[- ]?time|log ?in|sign[- ]?in|two[- ]factor|two[- ]step|authenticat))(?=.*(?&lt;![\d$.,:/])(?&lt;!\d-)(\d{4,8}|\d{3}[- ]\d{3})(?![\d]|[.,:/-]\d)).*</pre></div>
+</div>
+<h2>Settings</h2>
+<div class="group">
+<div class="cell plain"><span class="label">Settings › slopkit › SMS Relay</span></div>
+</div>
+<p class="gfoot">Without slopkit Settings installed, it&#x27;s at Settings › SMS Relay.</p>
+<h2>Depends</h2>
+<div class="group">
+<div class="cell plain"><span class="label">Cydia Substrate</span></div>
+<div class="cell plain"><span class="label">PreferenceLoader</span></div>
+</div>
+<h2>Release notes</h2>
+<div class="group">
+<div class="card"><p class="ver">1.0.3 <span>— 2026-10-14</span></p><ul><li>The setup steps for your main iPhone are on this page.</li></ul></div>
+</div>
+<div class="group">
+<div class="card"><p class="ver">1.0.2 <span>— 2026-10-07</span></p><ul><li>The description and Settings › SMS Relay now link the setup guide.</li></ul></div>
+</div>
+<div class="group">
+<div class="card"><p class="ver">1.0.1 <span>— 2026-10-07</span></p><ul><li>Reads the sender correctly even when the Shortcut&#x27;s line break is missing.</li></ul></div>
+</div>
+<div class="group">
+<div class="card"><p class="ver">1.0.0 <span>— 2026-10-07</span></p><ul><li>First release.</li></ul></div>
+</div>
+<p class="foot mark"><img src="../../assets/slopkit.png" alt="">slopkit</p>
+</div>
+</body>
+</html>

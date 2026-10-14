@@ -198,6 +198,19 @@ a.cell:active .chev { border-color: #fff; }
 .card ul:first-child { margin-top: 0; }
 .card ul:first-child li:first-child { margin-top: 0; }
 .card li { margin: 5px 0 0; font-size: 15px; line-height: 20px; }
+.card ol { margin: 0; padding: 0 0 0 22px; }
+.card pre {
+  margin: 10px 0 0;
+  padding: 8px;
+  background: #f2f2f4;
+  border: 1px solid #dcdce0;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  font: 12px/16px Menlo, Courier, monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -webkit-user-select: text;
+}
 .card .ver { margin: 0; font-size: 15px; font-weight: bold; line-height: 20px; }
 .card .ver span { font-weight: normal; color: #7f7f7f; }
 

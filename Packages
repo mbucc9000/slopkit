@@ -9,12 +9,30 @@ Section: Multimedia
 Depends: firmware (>= 5.0)
 Installed-Size: 2128
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?ff01881dcd
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?81d5737235
 Filename: debs/Encore_1.4.1_iphoneos-arm.deb
 Size: 654484
 MD5sum: 150369c01e5a0c595c405a76c1954bf9
 SHA1: e8916d8d47478d81451fb6607e14c3aaabd9c6f8
 SHA256: a79bfb9074c9ac050e7ed23b49a5e5e0ec9165a4f57f5b64b60af89369c901d0
+
+Package: com.mbucc9000.venn
+Version: 1.0.4
+Architecture: iphoneos-arm
+Name: Venn
+Description: Venn, an unofficial Venmo client for iOS 6: the friends feed and your activity, pay and request (every payment needs your Venn PIN), requests to you, friends and people search, profiles, and standard bank transfers. Talks to Venmo directly from the phone; needs TLSFix for modern HTTPS. Not made by, affiliated with or endorsed by Venmo or PayPal.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Utilities
+Depends: firmware (>= 6.0)
+Installed-Size: 444
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.venn.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.venn/depiction.html?e3fec395b6
+Filename: debs/com.mbucc9000.venn_1.0.4_iphoneos-arm.deb
+Size: 167818
+MD5sum: 254c169a3193ba1c0f370858306595c7
+SHA1: 216e9144658fccb7018af0fe98a1a5c3a3701958
+SHA256: 2c17b7d20db90c75f2d7d4c5096e2329dc16d5f1378b1c079a2e989dcaf545b9
 
 Package: com.mbucc9000.keytick
 Version: 3.0.1
@@ -29,12 +47,48 @@ Conflicts: com.mbucc9000.spacecursor, com.mbucc9000.swipetype
 Replaces: com.mbucc9000.spacecursor, com.mbucc9000.swipetype
 Installed-Size: 699
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.keytick.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.keytick/depiction.html?66a156fb64
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.keytick/depiction.html?bb019bb6c7
 Filename: debs/com.mbucc9000.keytick_3.0.1_iphoneos-arm.deb
 Size: 218554
 MD5sum: ddd4d5dc56435ff53d35f0a4f5713452
 SHA1: 76020f40b2d103ed0c3537fc8e1ff47fa1fb837c
 SHA256: 9c7bf9b70fd87f70480888ba6f5df108a16ef42d5eaebbc1441d0268a3fcea41
+
+Package: com.mbucc9000.tapticalerts
+Version: 1.1.0
+Architecture: iphoneos-arm
+Name: Taptic Alerts
+Description: Taptic Engine style alert vibrations. Swaps the iPhone's long "DUUU DUUU" buzzes for short, sharp taps (single, double or triple) for texts, notifications and apps, reminders, the ring/silent switch, charging and calls, including vibrations picked in Settings > Sounds. Strength, tap length and gap are adjustable. Takes effect after a reboot (or killall mediaserverd). Settings > Taptic Alerts.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 136
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.tapticalerts.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.tapticalerts/depiction.html?dd8eafac76
+Filename: debs/com.mbucc9000.tapticalerts_1.1.0_iphoneos-arm.deb
+Size: 16450
+MD5sum: ef10a0e6bab62e84e396a2a0359ca719
+SHA1: 47509b9901da29d2840819b7c031dac349f07aae
+SHA256: 8ba4f29c6a050aeacdc497fcf63814ff98806604b005158344066d7f8e92c9ed
+
+Package: com.mbucc9000.unlocktick
+Version: 1.2.0
+Architecture: iphoneos-arm
+Name: TickLock
+Description: A light iOS 12 style tick when the iPhone unlocks (slide to unlock, a correct passcode, or sliding a notification open) and when it locks (the sleep button or Auto-Lock); each can be turned off. Same feedback as KeyTick's key taps, and by default the same Strength and Length. Formerly UnlockTick. Settings > TickLock.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 128
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.unlocktick.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.unlocktick/depiction.html?6a8f1a8c77
+Filename: debs/com.mbucc9000.unlocktick_1.2.0_iphoneos-arm.deb
+Size: 12926
+MD5sum: 05e4bc7766f48b76a8a939f920c58b87
+SHA1: be94735539e6b03cd722a77407acac309d32108f
+SHA256: 19519e12b3cef156e9662f644db9086f44a92fe901f74be20ea6520c5af50bea
 
 Package: com.mbucc9000.locknc
 Version: 1.4.1
@@ -47,12 +101,87 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 140
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.locknc.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.locknc/depiction.html?7c0693cf5b
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.locknc/depiction.html?693ad6af1d
 Filename: debs/com.mbucc9000.locknc_1.4.1_iphoneos-arm.deb
 Size: 25818
 MD5sum: 89eff0e724a021637118a4b58aaf6109
 SHA1: dc0ce8c16c9c3f3967c457780c5329334f276bc1
 SHA256: 689486a58e83eb4309d3732dd17a8055182315157108b759b7928a1e680b2307
+
+Package: com.mbucc9000.messagewallpapers
+Version: 1.6.6
+Architecture: iphoneos-arm
+Name: MessageWallpapers
+Description: Per-conversation chat wallpapers in Messages. Press and hold a conversation's background (or its title) to pick a preset or one of your photos.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 624
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.messagewallpapers.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.messagewallpapers/depiction.html?8f187750b5
+Filename: debs/com.mbucc9000.messagewallpapers_1.6.6_iphoneos-arm.deb
+Size: 449308
+MD5sum: a0a81a5067c9bd0dc2fd45e807966033
+SHA1: de4b825bb711ab0a0b234490466f5a67e4b60285
+SHA256: a44f23217bef895a2a07567aee674e0c13df33d9cabc37757ff64d9f7905e99c
+
+Package: com.mbucc9000.smsrelay
+Version: 1.0.3
+Architecture: iphoneos-arm
+Name: SMS Relay
+Description: 2FA and login-code texts sent to your main iPhone's number, on this iPhone. A Shortcuts automation on the main iPhone relays code texts here over iMessage. SMS Relay shows each one as a notification from the real sender, copies the code to the clipboard, and hides a second copy of a code that also arrived as an iMessage. Settings > SMS Relay. Setup steps for the main iPhone's Shortcut are on its slopkit page.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 80
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.smsrelay.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.smsrelay/depiction.html?669c7bafea
+Filename: debs/com.mbucc9000.smsrelay_1.0.3_iphoneos-arm.deb
+Size: 16088
+MD5sum: 16ed3fe0154eefa9d02af061754a82a5
+SHA1: 7a71332a9ef37af7ac261a0d332446aca9b284c4
+SHA256: 9f180808234998d97fd04c9d9e88a47e8c92bb51bd5d1eeb99321798cafdc4aa
+
+Package: com.mbucc9000.ultimateairpodsfix
+Version: 1.0.3
+Architecture: iphoneos-arm
+Name: Ultimate AirPods Fix
+Description: Everything AirPods on iOS 6 in one package. AirPodsReconnectFix by mikey820 (commissioned) keeps the AirPods connected and the audio routed to them. AirPodsIcon shows an AirPods icon in the status bar and trims " - Find My" from the AirPods name in Settings and audio pickers. AirPodsUnstick fixes the audio going silent or choppy after the AirPods connect, with no Siri or Bluetooth toggling needed. Recognises your AirPods by identity, so you can name them anything. Replaces the three separate packages.
+Author: mbucc9000 (AirPodsReconnectFix by mikey820)
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Conflicts: com.mikey820.airpodsreconnectfix, com.mbucc9000.airpodsicon, com.mbucc9000.airpodsunstick, com.mbucc9000.aprfgate
+Replaces: com.mikey820.airpodsreconnectfix, com.mbucc9000.airpodsicon, com.mbucc9000.airpodsunstick
+Provides: com.mikey820.airpodsreconnectfix, com.mbucc9000.airpodsicon, com.mbucc9000.airpodsunstick
+Installed-Size: 432
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.ultimateairpodsfix.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.ultimateairpodsfix/depiction.html?568b6a67a2
+Filename: debs/com.mbucc9000.ultimateairpodsfix_1.0.3_iphoneos-arm.deb
+Size: 125064
+MD5sum: ee4eb575eb16afff13f4556c41031780
+SHA1: b6938f3a7e0136e80c60fa3eef05fde593151420
+SHA256: cee2f1a9c4b2aceb40864c713c375d1d25b46b6a976e48eb232344543a6cf435
+
+Package: com.mbucc9000.btrename
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: BTRename
+Description: Give any Bluetooth device a nickname that only this iPhone shows. Settings > Bluetooth > tap the blue arrow next to a device > Rename. The nickname shows in the Bluetooth list and on the device's page, in the audio / AirPlay pickers (app switcher, lock screen, apps) and in the in-call audio list. The device keeps its real name, and other tweaks (like Ultimate AirPods Fix) still see the real name. Empty the box or tap Use Real Name to undo.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 60
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.btrename.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.btrename/depiction.html?7680593a37
+Filename: debs/com.mbucc9000.btrename_1.0.0_iphoneos-arm.deb
+Size: 10896
+MD5sum: b12a72058acabc496dab61fc62ee0a58
+SHA1: f173070c8b3a87147f00d3889876e1ee8ca28777
+SHA256: f9bb1389f44d5e72cd423602eda271c65192e883be13eca1dba5e0754aec4141
 
 Package: com.mbucc9000.cameraflip
 Version: 2.2.0
@@ -67,9 +196,205 @@ Conflicts: com.mbucc9000.tapflip
 Replaces: com.mbucc9000.tapflip
 Installed-Size: 100
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.cameraflip.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.cameraflip/depiction.html?2d82ce72a0
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.cameraflip/depiction.html?c3e43e074d
 Filename: debs/com.mbucc9000.cameraflip_2.2.0_iphoneos-arm.deb
 Size: 24642
 MD5sum: a46bbbfd8c688cba0f42358394b7970d
 SHA1: a1e43339b3ca878f65534af6818fbc9e00a8be7e
 SHA256: f89669a004eefbc03a0e0e3ee5b6b455d5371aeb28504ed76dc6ff60408e934f
+
+Package: com.mbucc9000.darkstarapn
+Version: 2.0.2
+Architecture: iphoneos-arm
+Name: Dark Star APN
+Description: Sets up an iOS 6 iPhone for a US Mobile Dark Star SIM (AT&T network) automatically: install it and cellular data and MMS are set up, with nothing to type in. Uninstalling puts back what was there before.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Installed-Size: 68
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.darkstarapn.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.darkstarapn/depiction.html?732c0d46ed
+Filename: debs/com.mbucc9000.darkstarapn_2.0.2_iphoneos-arm.deb
+Size: 8330
+MD5sum: 334dc73fe58d3e14912bc21861c13485
+SHA1: 36a147f167a6ba35724afc7bdfc385dd893e508b
+SHA256: 58261431976fe5238eb16961329bf847541c79761b6f11e53561c5d1eb7cd126
+
+Package: com.mbucc9000.composehistory
+Version: 1.0.2
+Architecture: iphoneos-arm
+Name: ComposeHistory
+Description: Start a new message to someone you've texted before and your conversation with them shows right away, like iOS 7, instead of an empty screen until you send.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 56
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.composehistory.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.composehistory/depiction.html?6afd3d7cc6
+Filename: debs/com.mbucc9000.composehistory_1.0.2_iphoneos-arm.deb
+Size: 7506
+MD5sum: a1e388d6fcbf2d25f9cf4aec597df730
+SHA1: d7e4762f94b8c461eb732894f9b71ff1bbd69290
+SHA256: 8d32cc819afe4a28c45ad93e4fdef00a939cb29df887483baed7160eed091e73
+
+Package: com.mbucc9000.reactions
+Version: 2.1.2
+Architecture: iphoneos-arm
+Name: Reactions
+Description: Shows tapback reactions in iOS 6 Messages, in stock iOS 6 style. Reacting and swipe-to-reply are optional and off by default; they send plain text, not real reactions.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 380
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.reactions.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.reactions/depiction.html?313a06b218
+Filename: debs/com.mbucc9000.reactions_2.1.2_iphoneos-arm.deb
+Size: 154032
+MD5sum: 7943ffd79de5b2e080ee3338172eaef5
+SHA1: 0d1ed194db11c860b20716a203d407ef64b2390d
+SHA256: 15b0f807f249cc5baadbd9f714f8be137364c05280079b3550602afa760a5842
+
+Package: com.mbucc9000.apptime
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: AppTime
+Description: Tracks how long you spend in each app (screen on and unlocked only). See Settings > App Time for Today, Last 7 Days and All Time.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 136
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.apptime.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.apptime/depiction.html?1d0e258c45
+Filename: debs/com.mbucc9000.apptime_1.0.0_iphoneos-arm.deb
+Size: 23266
+MD5sum: b7908b635a50f7bc5196c0b3406aa7e7
+SHA1: 6ad2d7a4cb58756ec41aae32c8d7c5bf8b6c7244
+SHA256: 4bd90c1dd5157d9619f2af8d029771af21eb66d3b48ae69642e7beffa7dfc3a4
+
+Package: com.mbucc9000.messagetimes
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: MessageTimes
+Description: Swipe left in a Messages conversation to see when each message was sent, like iOS 7.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 60
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.messagetimes.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.messagetimes/depiction.html?7d5486d344
+Filename: debs/com.mbucc9000.messagetimes_1.0.0_iphoneos-arm.deb
+Size: 9590
+MD5sum: 71ca109a64cf11fc9a218a2c42b127d1
+SHA1: 98e0c919a55980be47038d71fc99cbd53c3de741
+SHA256: 2db4ccbd474f74e68cbd3c6399767bfd5d85036620469379b0ed0283895fd2d0
+
+Package: com.mbucc9000.mirrorfront
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: MirrorFront
+Description: Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 56
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.mirrorfront.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.mirrorfront/depiction.html?c4957df966
+Filename: debs/com.mbucc9000.mirrorfront_1.0.0_iphoneos-arm.deb
+Size: 5028
+MD5sum: 621ff6e3e146a42daa06e60bdb0e442c
+SHA1: 5b70fd400d3ca70b29449c94fa080e705f002e41
+SHA256: de4313edecc549d88ea6a15749b27d6c02697c6d839db025908592e8468c3743
+
+Package: com.mbucc9000.xgalbums
+Version: 1.4.0
+Architecture: iphoneos-arm
+Name: XGAlbums
+Description: Swipe through multi-photo posts in Instagram 6.5.1 running on an Xstragram server (1/4 badge, instant swipes), and play the post's song while an album with music is on screen. Videos play with sound without pressing a volume button. Pinch any feed photo to zoom it, Instagram-style. Videos inside albums play when you swipe to them.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 80
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.xgalbums.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.xgalbums/depiction.html?bf2e00c3d5
+Filename: debs/com.mbucc9000.xgalbums_1.4.0_iphoneos-arm.deb
+Size: 17768
+MD5sum: a62bea802ea7ba92a956414879cbd5ab
+SHA1: 0c3bad279ccb9d1a390b924506396c07d421e884
+SHA256: 8cfbccaa7708bf7e536dc2ec0cc3fdc56704b91a7621908af636cc7e0315907d
+
+Package: com.mbucc9000.nofmfreauth
+Version: 1.0.1
+Architecture: iphoneos-arm
+Name: NoFMFReauth
+Description: Removes the local password/passcode re-authentication prompt from Find My Friends.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 56
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.nofmfreauth.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.nofmfreauth/depiction.html?fad6d00af0
+Filename: debs/com.mbucc9000.nofmfreauth_1.0.1_iphoneos-arm.deb
+Size: 6278
+MD5sum: 268b01f3f9d54dee9416bd366f5f7702
+SHA1: 486a9cacfc1bbcd3c8881133901383442ca4f299
+SHA256: fbfc65f4e9476f042fc1ad8aedf60554b9fafd74459433a69bfe05f25e249de5
+
+Package: com.mbucc9000.classicifile
+Version: 1.1.1
+Architecture: iphoneos-arm
+Name: ClassiciFile
+Description: Gives iFile a proper iOS 6 icon on the home screen: rounded corners and gloss instead of a flat square, using the classic artwork if you supply it.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 64
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.classicifile.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.classicifile/depiction.html?c3d344c28b
+Filename: debs/com.mbucc9000.classicifile_1.1.1_iphoneos-arm.deb
+Size: 7770
+MD5sum: 28fa9ee355bafc20e67767bbdd37824c
+SHA1: a96b19bccf4789107a8a314720ac470631524309
+SHA256: 3bee9c8b50db060f25f1e02477b272a1dd38fe768fd8cc5d1a498c03f6f5d791
+
+Package: com.mbucc9000.flappybird60fps
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Name: 60fps Flappy Bird
+Description: Flappy Bird 1.1.0 drawing at 60fps instead of 30. The game logic already ran at 60 Hz, but it only drew every other frame. Game speed is unchanged. Installs as its own app ("60fps Flappy Bird") next to the original.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Games
+Depends: firmware (>= 6.0), uikittools
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappybird60fps.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappybird60fps/depiction.html?09c80b322f
+Filename: debs/com.mbucc9000.flappybird60fps_1.1.0-1_iphoneos-arm.deb
+Size: 881882
+MD5sum: aeafcb2275946129b8ad5abaef456a5a
+SHA1: d669aca199142c2ec6475f29d7841e2775833656
+SHA256: 93af2d41113956b6c9f1ad8102d00106b1361f56f3f6d2e5a3fbe54d03f7ecdb
+
+Package: com.mbucc9000.slopkit
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: slopkit Settings
+Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 712
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?847c4cc129
+Filename: debs/com.mbucc9000.slopkit_1.0.0_iphoneos-arm.deb
+Size: 419214
+MD5sum: 5aa1e9703c513860517cde8f0a75b4a8
+SHA1: d5c5cb048a168b824c83606f822af89ab0ed6ebf
+SHA256: 2a6dbf11724f0d838c381deacff853e02e877c7308d97ecf86eb27631a7146da
