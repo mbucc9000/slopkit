@@ -36,6 +36,24 @@ MD5sum: ddd4d5dc56435ff53d35f0a4f5713452
 SHA1: 76020f40b2d103ed0c3537fc8e1ff47fa1fb837c
 SHA256: 9c7bf9b70fd87f70480888ba6f5df108a16ef42d5eaebbc1441d0268a3fcea41
 
+Package: com.mbucc9000.locknc
+Version: 1.4.1
+Architecture: iphoneos-arm
+Name: LockNC
+Description: Use Notification Center on the lock screen. Swipe down from the top edge to open it; swipe up from the bottom, press Home, or let the screen sleep to close it. Tapping a notification while locked just closes it, so nothing opens until you unlock. Settings > LockNC.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 140
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.locknc.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.locknc/depiction.html?7c0693cf5b
+Filename: debs/com.mbucc9000.locknc_1.4.1_iphoneos-arm.deb
+Size: 25818
+MD5sum: 89eff0e724a021637118a4b58aaf6109
+SHA1: dc0ce8c16c9c3f3967c457780c5329334f276bc1
+SHA256: 689486a58e83eb4309d3732dd17a8055182315157108b759b7928a1e680b2307
+
 Package: com.mbucc9000.cameraflip
 Version: 2.2.0
 Architecture: iphoneos-arm
