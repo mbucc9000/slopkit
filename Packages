@@ -382,7 +382,7 @@ SHA1: d669aca199142c2ec6475f29d7841e2775833656
 SHA256: 93af2d41113956b6c9f1ad8102d00106b1361f56f3f6d2e5a3fbe54d03f7ecdb
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -392,9 +392,9 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 712
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?847c4cc129
-Filename: debs/com.mbucc9000.slopkit_1.0.0_iphoneos-arm.deb
-Size: 419214
-MD5sum: 5aa1e9703c513860517cde8f0a75b4a8
-SHA1: d5c5cb048a168b824c83606f822af89ab0ed6ebf
-SHA256: 2a6dbf11724f0d838c381deacff853e02e877c7308d97ecf86eb27631a7146da
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?ba432e1ce3
+Filename: debs/com.mbucc9000.slopkit_1.0.1_iphoneos-arm.deb
+Size: 419154
+MD5sum: b8bfded700e93734b3a88e8940ee8362
+SHA1: 7fe8faf361545ead5d4e21fa4ddc2a6e1e7926f8
+SHA256: 0186a543acb4e5f8e20ae436fff9a0dd5912770c46613cc3933e01a3f6a37725
