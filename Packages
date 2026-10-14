@@ -15,3 +15,23 @@ Size: 654466
 MD5sum: 3b2b04429b47338888ce800d08836d73
 SHA1: ef9bf887df3f064ba2b0ae4d3340ab062e1d70a5
 SHA256: 776939c652c18027b84a584099b29a4c5b7645a6c50e910f217dbd5be4a73e83
+
+Package: com.mbucc9000.cameraflip
+Version: 2.2.0
+Architecture: iphoneos-arm
+Name: CameraFlip
+Description: Snapchat-style camera flip for the Camera app: double-tap the preview to switch between the back and front cameras, for photos and videos. While recording it flips without stopping: one continuous video, and the mic runs separately so audio keeps going through the flip.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.mbucc9000.tapflip
+Replaces: com.mbucc9000.tapflip
+Installed-Size: 100
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.cameraflip.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.cameraflip/depiction.html?2d82ce72a0
+Filename: debs/com.mbucc9000.cameraflip_2.2.0_iphoneos-arm.deb
+Size: 24642
+MD5sum: a46bbbfd8c688cba0f42358394b7970d
+SHA1: a1e43339b3ca878f65534af6818fbc9e00a8be7e
+SHA256: f89669a004eefbc03a0e0e3ee5b6b455d5371aeb28504ed76dc6ff60408e934f
