@@ -367,21 +367,21 @@ SHA1: a96b19bccf4789107a8a314720ac470631524309
 SHA256: 3bee9c8b50db060f25f1e02477b272a1dd38fe768fd8cc5d1a498c03f6f5d791
 
 Package: com.mbucc9000.flappybird60fps
-Version: 1.1.0-1
+Version: 1.1.0-2
 Architecture: iphoneos-arm
-Name: 60fps Flappy Bird
-Description: Flappy Bird 1.1.0 drawing at 60fps instead of 30. The game logic already ran at 60 Hz, but it only drew every other frame. Game speed is unchanged. Installs as its own app ("60fps Flappy Bird") next to the original.
+Name: Flappy 60FPS
+Description: Flappy Bird 1.1.0 drawing at 60fps instead of 30. The game logic already ran at 60 Hz, but it only drew every other frame. Game speed is unchanged. Installs as its own app ("Flappy 60FPS") next to the original.
 Author: mbucc9000
 Maintainer: mbucc9000
 Section: Games
 Depends: firmware (>= 6.0), uikittools
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappybird60fps.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappybird60fps/depiction.html?09c80b322f
-Filename: debs/com.mbucc9000.flappybird60fps_1.1.0-1_iphoneos-arm.deb
-Size: 881882
-MD5sum: aeafcb2275946129b8ad5abaef456a5a
-SHA1: d669aca199142c2ec6475f29d7841e2775833656
-SHA256: 93af2d41113956b6c9f1ad8102d00106b1361f56f3f6d2e5a3fbe54d03f7ecdb
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappybird60fps/depiction.html?048c553848
+Filename: debs/com.mbucc9000.flappybird60fps_1.1.0-2_iphoneos-arm.deb
+Size: 894340
+MD5sum: e83413a0f102f77eaa9018b94b058fdc
+SHA1: 25bb49ff8a8e92e257742e396486b2a29cc8e3e8
+SHA256: 04ba07ac32fd7bacaa556855c49c890a2c8a77e9978fac0aa03e18958f9fa51e
 
 Package: com.mbucc9000.slopkit
 Version: 1.0.1
@@ -396,7 +396,7 @@ Installed-Size: 712
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
 Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?ba432e1ce3
 Filename: debs/com.mbucc9000.slopkit_1.0.1_iphoneos-arm.deb
-Size: 419154
-MD5sum: b8bfded700e93734b3a88e8940ee8362
-SHA1: 7fe8faf361545ead5d4e21fa4ddc2a6e1e7926f8
-SHA256: 0186a543acb4e5f8e20ae436fff9a0dd5912770c46613cc3933e01a3f6a37725
+Size: 419162
+MD5sum: ebe998ed0358bb1019342e9c0c85cbba
+SHA1: f3558c5fa325b6d99225bd4ec9ff2817337f265e
+SHA256: 6ddcdf666fa4b2bcd7702ae35748c385985ccc6e173b1b233c729c8afe9722e2
