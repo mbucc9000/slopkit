@@ -7,14 +7,14 @@ Architectures: iphoneos-arm
 Components: main
 Description: slopkit is homemade tweaks for iOS 6, cooked up with Claude.
 MD5Sum:
- bc85f1ede243764242d0d7b468d10730 22185 Packages
- 608638a5db6703c83f23d6e3008dd9fb 7491 Packages.gz
- a3835d26e986710bd6bc2c238ff42666 6836 Packages.bz2
+ 6232d03d9d1596cb4b4d372ec403dfa0 22865 Packages
+ 104f3f22587dc296c1039916e358c99a 7669 Packages.gz
+ 0d26f03b3fe6d77f3ba66b6a6a959a87 6970 Packages.bz2
 SHA1:
- b24c4bb16d0baf223e41c8e7ae9e005e0a9b1271 22185 Packages
- a9248b4eba19672e5a27a8bb48da71ce57d564d5 7491 Packages.gz
- 333a201b6fcf8986670db75679520ec8e59b8a20 6836 Packages.bz2
+ babfcc42cbe619de5bc59e86731b6dddba1cd73e 22865 Packages
+ b3e6b27f315e06d2e7bfd79feaab0e155a4f96af 7669 Packages.gz
+ 002b5a4cbf4f68398da3021255d6ea1158850e4e 6970 Packages.bz2
 SHA256:
- a29a2ce4ff3fd05b7a8ef80884c25ac7b9f29a0a44311e6e6d27ccff88a54634 22185 Packages
- 1833f012538216e9b2c2e1e8e7de80bb4dc7bafba3ad0a582017a4249aaace25 7491 Packages.gz
- c552b42e92efb17731c3138ba7b19cc5bab5a27f15a3f88b5233d76c272fa0d5 6836 Packages.bz2
+ 0b837fdabd66439e2affacb653fb3e2c24221bc81dc035fbed47a01f96d9c729 22865 Packages
+ a3d15b2c09fa238d2afbb20bbabdbbc089ecb581766f7618b35d08a57d05aed0 7669 Packages.gz
+ 01d4c0df61478e693b9986c5c53b00441b5be60b8d36b2a7a3975502658fdac5 6970 Packages.bz2
