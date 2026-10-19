@@ -313,6 +313,42 @@ MD5sum: 71ca109a64cf11fc9a218a2c42b127d1
 SHA1: 98e0c919a55980be47038d71fc99cbd53c3de741
 SHA256: 2db4ccbd474f74e68cbd3c6399767bfd5d85036620469379b0ed0283895fd2d0
 
+Package: com.mbucc9000.sendlater
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: Send Later
+Description: Schedule a text in Messages. Type your message, touch and hold Send, and pick a time. Your iPhone sends it then, even if Messages is closed or the phone is asleep. Touch and hold Send again to see, change, send now or cancel what's scheduled in that conversation.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 148
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.sendlater.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.sendlater/depiction.html?b584a7a9f9
+Filename: debs/com.mbucc9000.sendlater_1.0.0_iphoneos-arm.deb
+Size: 52482
+MD5sum: ed07e58a275fe1afd996420b868f41a3
+SHA1: 13a5d273babeb18ea7e465c8b259593949c33ddd
+SHA256: 225e7fc83e04c537d39767ae11b5c350fe7600d3e1296a6b438f037649e77b19
+
+Package: com.mbucc9000.linkpreviews
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: Link Previews
+Description: iOS 10-style link previews in Messages. A link in a message gets a card with the page's picture, title and site, right above the bubble; tap it to open the link, or touch and hold to copy it. Everything loads on this iPhone, straight from each website. For modern HTTPS sites, install TLSFix and its certificates. Settings > Link Previews.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Installed-Size: 204
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.linkpreviews.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.linkpreviews/depiction.html?dc6fb9a493
+Filename: debs/com.mbucc9000.linkpreviews_1.0.0_iphoneos-arm.deb
+Size: 80348
+MD5sum: 2427e13352e29aa6c5409a297f66e5ef
+SHA1: 329150c2d7620802e5dff4e27a858a094e323e13
+SHA256: f493b92ff8de1c31bb6f43f49f123c081417e94aa1fa2493cdd614fa3a504524
+
 Package: com.mbucc9000.mirrorfront
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -403,7 +439,7 @@ SHA1: 25bb49ff8a8e92e257742e396486b2a29cc8e3e8
 SHA256: 04ba07ac32fd7bacaa556855c49c890a2c8a77e9978fac0aa03e18958f9fa51e
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -411,11 +447,11 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 736
+Installed-Size: 784
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?46b1eb3d64
-Filename: debs/com.mbucc9000.slopkit_1.0.2_iphoneos-arm.deb
-Size: 437466
-MD5sum: 3d8a4885dc5ff202a4835d1fe5b1070f
-SHA1: 9b9c4b8ea9a6217c07f04d442bef4a0178134de4
-SHA256: 0d48b8db543066b8b80f8a6c4215ce1669e65b97726bedb50d453825eb715c8a
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?1579d18f1b
+Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
+Size: 471610
+MD5sum: c0c6633409eb584f55cbf0ffade601da
+SHA1: 6ff65656705ae8549e352fece68e5c8511965ecd
+SHA256: 195cbd7e758a004792419e394500c360b3218f7768d86d01c3afc1cfed7e44c4
