@@ -1,5 +1,5 @@
 Package: com.mbucc9000.encore
-Version: 1.6.0
+Version: 1.7.0
 Architecture: iphoneos-arm
 Name: Encore
 Description: Encore, an unofficial Spotify client for iOS 6, which also runs on iOS 5 (iOS 5.0 and later). Music streams from your own Encore Bridge, which you run on a computer at home (Docker or Windows). Needs Spotify Premium. Not made by, affiliated with or endorsed by Spotify. 1.6: rearrange and edit Up Next, Play Next, tap to jump. 1.5: pick a classic Spotify app icon (Settings, Appearance, App Icon). 1.4: tells you when a new version is out. 1.2: the app and the bridge in 12 more languages (Settings → Appearance → Language). 1.1.1: plainer docs and a simpler update card on the bridge. 1.1: Anonymous Mode for showcasing, iPhone 4/4S support, iOS 5 support (iOS 5.0 and later: iPhone 3GS, 4 and 4S, iPod touch 3G and 4G), ready for the public release. 1.0: the polished Encore — green iOS 6 chrome everywhere, a new Now Playing and Up Next, a real Settings screen, Text size, profiles (search people, open anyone's profile and playlists), and every screen restyled. 0.11.2: tap "Playing from …" on Now Playing to open that playlist, album, artist or Liked Songs. Search keeps Profiles high up (after Artists, or right under the Top Result for an exact name) and always scrolls to the bottom. 0.11.1: Now Playing's volume and buttons are back on one bar. 0.11: a new Now Playing (swipe the art to skip; volume, actions and device pages), Up Next on the flip side, a Listening-on bar, the real Settings screen, and people: search for profiles, open anyone's profile and their playlists. 0.10: green bars, buttons, sheets and alerts everywhere, roomier song rows, and a Text size setting (Settings → Appearance). 0.9.2: remove songs from your playlists (•••, Remove from This Playlist), sort playlists and Liked Songs (Title, Artist, Album), and a cleaner Saved-in sheet. 0.9: save albums to Your Library (the heart on an album page), pin your favourite playlists to the top of Playlists (long-press a playlist), and a "Saved in" sheet like Spotify's: Add to Playlist shows which of your playlists (and Liked Songs) already have the song, and adds to or removes from several at once. 0.8: synced lyrics on Now Playing (tap the art or Lyrics: the lines follow the song, tap one to jump there; from LRCLIB). 0.7: a Home tab built from your listening (Jump back in, Made For You, top artists, new releases, top tracks), a full Library (Liked Songs, saved Albums, followed Artists, Recently Played) and your profile, on top of Spotify Jam, playlists, albums, artists, search, likes, swipe-to-queue and the streaming player (lock screen, AirPods, background audio).
@@ -9,14 +9,14 @@ Section: Multimedia
 Depends: firmware (>= 5.0)
 Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
-Installed-Size: 2460
+Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?c3008ee325
-Filename: debs/Encore_1.6.0_iphoneos-arm.deb
-Size: 875898
-MD5sum: 52225efee801dcd32e695b4535063061
-SHA1: e4eda50f9cddbe77eb7fb9a2d06faacc71c1929c
-SHA256: 5d8030b7f0e05cc608238cc631682e16a5de6e07a0c50c2112f1ea4c6bac01ca
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?41db05d857
+Filename: debs/Encore_1.7.0_iphoneos-arm.deb
+Size: 883184
+MD5sum: 9a854a422cae87e3eaa3f4646cb55581
+SHA1: 5f9ef4702a1f2928ea2b66b7c5ce8aed291fdc86
+SHA256: f16f574b75794c6d0bfcced9b65f32b1e36715e97da2e595e774ef83f8fc82a1
 
 Package: com.mbucc9000.venn
 Version: 1.0.4
