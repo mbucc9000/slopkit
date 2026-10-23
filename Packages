@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?b3a6c0ad91
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?1916bb503a
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -422,21 +422,55 @@ SHA1: a96b19bccf4789107a8a314720ac470631524309
 SHA256: 3bee9c8b50db060f25f1e02477b272a1dd38fe768fd8cc5d1a498c03f6f5d791
 
 Package: com.mbucc9000.flappybird60fps
-Version: 1.1.0-2
+Version: 1.1.0-4
 Architecture: iphoneos-arm
 Name: Flappy 60FPS
-Description: Flappy Bird 1.1.0 drawing at 60fps instead of 30. The game logic already ran at 60 Hz, but it only drew every other frame. Game speed is unchanged. Installs as its own app ("Flappy 60FPS") next to the original.
+Description: Flappy Bird 1.1.0 drawing at 60fps instead of 30. The game logic already ran at 60 Hz, but it only drew every other frame. Game speed is unchanged. Also fixes the original game's crash on death when Game Center is signed in, and the game closing every time you press home. Installs as its own app ("Flappy 60FPS") next to the original.
 Author: mbucc9000
 Maintainer: mbucc9000
 Section: Games
 Depends: firmware (>= 6.0), uikittools
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappybird60fps.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappybird60fps/depiction.html?8143f88fce
-Filename: debs/com.mbucc9000.flappybird60fps_1.1.0-2_iphoneos-arm.deb
-Size: 894340
-MD5sum: e83413a0f102f77eaa9018b94b058fdc
-SHA1: 25bb49ff8a8e92e257742e396486b2a29cc8e3e8
-SHA256: 04ba07ac32fd7bacaa556855c49c890a2c8a77e9978fac0aa03e18958f9fa51e
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappybird60fps/depiction.html?794c398219
+Filename: debs/com.mbucc9000.flappybird60fps_1.1.0-4_iphoneos-arm.deb
+Size: 896490
+MD5sum: 22c3792aacd7d8c78ca60825cf239ce8
+SHA1: e206f6de1f60bbd2f8d0950edacde6e0c710d1e8
+SHA256: 5d61d17640413b5b0b3f3e6ba69203e50c6258a32afafe24cb7312e825dc23f9
+
+Package: com.mbucc9000.flappyhats
+Version: 1.1.1
+Architecture: iphoneos-arm
+Name: Flappy Hats
+Description: Flappy Bird 1.1.0 with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. Installs as its own app ("Flappy Hats") next to the original, with no ads, and fixes the original game's crash on death when Game Center is signed in.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Games
+Depends: firmware (>= 6.0), mobilesubstrate, uikittools
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappyhats.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats/depiction.html?b7f777965d
+Filename: debs/com.mbucc9000.flappyhats_1.1.1_iphoneos-arm.deb
+Size: 986828
+MD5sum: f2c9af96e6694d01b7304068280e2984
+SHA1: d3682d7785239cdd98e2a82255bf302659f52f67
+SHA256: d520f18e558d7843f28d3b9bdead78e527886840f763ab001939780d89be7c22
+
+Package: com.mbucc9000.flappyhats60fps
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: Flappy Hats 60FPS
+Description: Flappy Bird 1.1.0 drawing at 60fps, with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. On first launch it starts with your Flappy Hats progress and sounds. Installs as its own app ("Hats 60FPS") next to the original and Flappy Hats, with no ads, and fixes the original game's crash on death when Game Center is signed in.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Games
+Depends: firmware (>= 6.0), mobilesubstrate, uikittools
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappyhats60fps.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats60fps/depiction.html?181dd9267e
+Filename: debs/com.mbucc9000.flappyhats60fps_1.0.0_iphoneos-arm.deb
+Size: 988462
+MD5sum: 0aab1c4b4c55c1692e584f1405df74d0
+SHA1: e0b511b8c816dfb4a0bf03e516b0038a70e598dc
+SHA256: 5297aca17dce0f3f189511197d5915cdc60362ef619ecb44bb2beece773b383e
 
 Package: com.mbucc9000.slopkit
 Version: 1.0.3
