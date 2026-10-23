@@ -224,6 +224,24 @@ MD5sum: a46bbbfd8c688cba0f42358394b7970d
 SHA1: a1e43339b3ca878f65534af6818fbc9e00a8be7e
 SHA256: f89669a004eefbc03a0e0e3ee5b6b455d5371aeb28504ed76dc6ff60408e934f
 
+Package: com.mbucc9000.sipphone
+Version: 1.1.0
+Architecture: iphoneos-arm
+Name: SIP Phone
+Description: Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings > SIP Phone.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Installed-Size: 724
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.sipphone.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.sipphone/depiction.html?7562259b17
+Filename: debs/com.mbucc9000.sipphone_1.1.0_iphoneos-arm.deb
+Size: 126190
+MD5sum: 70a74fa4c95c23ec0a42dcec8b841741
+SHA1: fa2a38cea043acb3ead8f581f1ccc97bf212dae4
+SHA256: b7c29b23937057450210d2c02a7cd55f4ed1dfd840459ee1fb6db13c74c08399
+
 Package: com.mbucc9000.darkstarapn
 Version: 2.0.2
 Architecture: iphoneos-arm
@@ -483,7 +501,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 784
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?b7884c8971
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?dc86e9d4e4
 Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
 Size: 471610
 MD5sum: c0c6633409eb584f55cbf0ffade601da
