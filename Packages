@@ -457,38 +457,38 @@ SHA1: e206f6de1f60bbd2f8d0950edacde6e0c710d1e8
 SHA256: 5d61d17640413b5b0b3f3e6ba69203e50c6258a32afafe24cb7312e825dc23f9
 
 Package: com.mbucc9000.flappyhats
-Version: 1.1.1
+Version: 1.1.2
 Architecture: iphoneos-arm
 Name: Flappy Hats
-Description: Flappy Bird 1.1.0 with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. Installs as its own app ("Flappy Hats") next to the original, with no ads, and fixes the original game's crash on death when Game Center is signed in.
+Description: Flappy Bird 1.1.0 with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. Shares your progress with Flappy Hats 60FPS and your best score with every Flappy Bird on the phone. Installs as its own app ("Flappy Hats") next to the original, with no ads, and fixes the original game's crash on death when Game Center is signed in.
 Author: mbucc9000
 Maintainer: mbucc9000
 Section: Games
 Depends: firmware (>= 6.0), mobilesubstrate, uikittools
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappyhats.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats/depiction.html?b7f777965d
-Filename: debs/com.mbucc9000.flappyhats_1.1.1_iphoneos-arm.deb
-Size: 986828
-MD5sum: f2c9af96e6694d01b7304068280e2984
-SHA1: d3682d7785239cdd98e2a82255bf302659f52f67
-SHA256: d520f18e558d7843f28d3b9bdead78e527886840f763ab001939780d89be7c22
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats/depiction.html?7a1e10b561
+Filename: debs/com.mbucc9000.flappyhats_1.1.2_iphoneos-arm.deb
+Size: 1005456
+MD5sum: cedf234a7b0c1586287159b5868e145c
+SHA1: 2d91e7a3b5f4c6aa7bf29859e6c12358aee46beb
+SHA256: 2fa4c3af152bdcfeb247144ada0e872be38ed0e53dc796418721291ac6793b47
 
 Package: com.mbucc9000.flappyhats60fps
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Name: Flappy Hats 60FPS
-Description: Flappy Bird 1.1.0 drawing at 60fps, with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. On first launch it starts with your Flappy Hats progress and sounds. Installs as its own app ("Hats 60FPS") next to the original and Flappy Hats, with no ads, and fixes the original game's crash on death when Game Center is signed in.
+Description: Flappy Bird 1.1.0 drawing at 60fps, with a shop on the title screen: hats and skins you unlock with your best score or buy with points, and your own recorded flap, point and game over sounds, each with its own volume, plus an optional tick on every flap. Shares your progress and sounds with Flappy Hats and your best score with every Flappy Bird on the phone. Installs as its own app ("Hats 60FPS") next to the original and Flappy Hats, with no ads, and fixes the original game's crash on death when Game Center is signed in.
 Author: mbucc9000
 Maintainer: mbucc9000
 Section: Games
 Depends: firmware (>= 6.0), mobilesubstrate, uikittools
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.flappyhats60fps.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats60fps/depiction.html?181dd9267e
-Filename: debs/com.mbucc9000.flappyhats60fps_1.0.0_iphoneos-arm.deb
-Size: 988462
-MD5sum: 0aab1c4b4c55c1692e584f1405df74d0
-SHA1: e0b511b8c816dfb4a0bf03e516b0038a70e598dc
-SHA256: 5297aca17dce0f3f189511197d5915cdc60362ef619ecb44bb2beece773b383e
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.flappyhats60fps/depiction.html?8862f31835
+Filename: debs/com.mbucc9000.flappyhats60fps_1.0.1_iphoneos-arm.deb
+Size: 1006250
+MD5sum: e775236bb1331a7f69cd6b0fb1f82e5d
+SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
+SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
 Version: 1.0.3
