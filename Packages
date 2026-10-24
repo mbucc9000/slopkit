@@ -368,7 +368,7 @@ SHA1: 329150c2d7620802e5dff4e27a858a094e323e13
 SHA256: f493b92ff8de1c31bb6f43f49f123c081417e94aa1fa2493cdd614fa3a504524
 
 Package: com.mbucc9000.mirrorfront
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Name: MirrorFront
 Description: Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.
@@ -376,14 +376,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate
-Installed-Size: 56
+Installed-Size: 60
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.mirrorfront.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.mirrorfront/depiction.html?4e32450570
-Filename: debs/com.mbucc9000.mirrorfront_1.0.0_iphoneos-arm.deb
-Size: 5028
-MD5sum: 621ff6e3e146a42daa06e60bdb0e442c
-SHA1: 5b70fd400d3ca70b29449c94fa080e705f002e41
-SHA256: de4313edecc549d88ea6a15749b27d6c02697c6d839db025908592e8468c3743
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.mirrorfront/depiction.html?61ff565deb
+Filename: debs/com.mbucc9000.mirrorfront_1.1.0_iphoneos-arm.deb
+Size: 7770
+MD5sum: c494a0dd84fa891491f9aa66912095c5
+SHA1: 7ef4d8e7a526c7f08e6cdf7a5d911edf90e34f98
+SHA256: 5474409b147eb8aa126fe9d3e64ec1db51655da95c4f179e3810e8f7cd205ef8
 
 Package: com.mbucc9000.xgalbums
 Version: 1.4.0
