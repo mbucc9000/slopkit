@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?1916bb503a
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?50a841ea3f
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -128,6 +128,24 @@ Size: 25818
 MD5sum: 89eff0e724a021637118a4b58aaf6109
 SHA1: dc0ce8c16c9c3f3967c457780c5329334f276bc1
 SHA256: 689486a58e83eb4309d3732dd17a8055182315157108b759b7928a1e680b2307
+
+Package: com.mbucc9000.bannerswipe
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: BannerSwipe
+Description: Swipe a notification banner up to dismiss it, like newer iOS. The banner follows your finger and flies off the top; it stays in Notification Center, just like one that timed out. Tapping and pulling a banner down work as before. Settings > BannerSwipe.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 124
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.bannerswipe.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.bannerswipe/depiction.html?6fce8a7a6e
+Filename: debs/com.mbucc9000.bannerswipe_1.0.0_iphoneos-arm.deb
+Size: 8750
+MD5sum: 01e28c9c33c15ebd1ba1c57963fbfcb3
+SHA1: 25318e8b5bd644e81934e260ac490a7809bee1bd
+SHA256: fc59b0b5acc373aceff8e646d2f9a7e75f2fb228df7315d290508ca11faed407
 
 Package: com.mbucc9000.messagewallpapers
 Version: 1.6.6
