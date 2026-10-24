@@ -235,7 +235,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
 Installed-Size: 724
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.sipphone.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.sipphone/depiction.html?7562259b17
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.sipphone/depiction.html?8c919c5dd8
 Filename: debs/com.mbucc9000.sipphone_1.1.0_iphoneos-arm.deb
 Size: 126190
 MD5sum: 70a74fa4c95c23ec0a42dcec8b841741
