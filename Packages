@@ -439,6 +439,24 @@ MD5sum: 268b01f3f9d54dee9416bd366f5f7702
 SHA1: 486a9cacfc1bbcd3c8881133901383442ca4f299
 SHA256: fbfc65f4e9476f042fc1ad8aedf60554b9fafd74459433a69bfe05f25e249de5
 
+Package: com.mbucc9000.fmfmapplus
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: FMF Map Plus
+Description: Find My Friends on iOS 6: satellite view with a Standard / Satellite / Hybrid button on the map, and little name tags above everyone so you can see who is who without tapping.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 76
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.fmfmapplus.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.fmfmapplus/depiction.html?29ca104dff
+Filename: debs/com.mbucc9000.fmfmapplus_1.0.0_iphoneos-arm.deb
+Size: 13188
+MD5sum: 0355eeacc313027f50f245f730509ab7
+SHA1: f6f7d745f96bcc480fa1a0cdc2d3428f09bf749f
+SHA256: 851e21cc5c2cf5c10498c78d890b1a968d6ce624e822523deee48c1296a9af42
+
 Package: com.mbucc9000.classicifile
 Version: 1.1.1
 Architecture: iphoneos-arm
@@ -519,7 +537,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 784
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?dc86e9d4e4
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?b9fa40469c
 Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
 Size: 471610
 MD5sum: c0c6633409eb584f55cbf0ffade601da
