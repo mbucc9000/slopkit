@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?50a841ea3f
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?c8320a90bf
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -385,6 +385,24 @@ MD5sum: 2427e13352e29aa6c5409a297f66e5ef
 SHA1: 329150c2d7620802e5dff4e27a858a094e323e13
 SHA256: f493b92ff8de1c31bb6f43f49f123c081417e94aa1fa2493cdd614fa3a504524
 
+Package: com.mbucc9000.heicfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: HEICFix
+Description: Shows HEIC photos in Messages. Newer iPhones send camera photos as HEIC, which iOS 6 can't open, so they arrive as broken file bubbles. HEICFix makes a JPEG copy of each one on this iPhone, and Messages shows it like any other photo: in the chat, full screen, and when you save it. The original file is never changed.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 912
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.heicfix.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.heicfix/depiction.html?8c1d27f354
+Filename: debs/com.mbucc9000.heicfix_1.0.0_iphoneos-arm.deb
+Size: 359708
+MD5sum: f1db49fdb73f8172e9127950cae126e7
+SHA1: fe6b19febf82fc5ef59d1a92d0f61c94979d5244
+SHA256: eb3231430c0724f1dd88b13060a3e0f542958ed8e1e3abefd4b36a2c68eb6d80
+
 Package: com.mbucc9000.mirrorfront
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -537,7 +555,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 784
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?b9fa40469c
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?0387143c27
 Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
 Size: 471610
 MD5sum: c0c6633409eb584f55cbf0ffade601da
