@@ -421,6 +421,24 @@ MD5sum: f1db49fdb73f8172e9127950cae126e7
 SHA1: fe6b19febf82fc5ef59d1a92d0f61c94979d5244
 SHA256: eb3231430c0724f1dd88b13060a3e0f542958ed8e1e3abefd4b36a2c68eb6d80
 
+Package: com.mbucc9000.messagegifs
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: Message GIFs
+Description: GIPHY GIFs in Messages. Touch and hold the camera button in a conversation, browse or search GIFs, and tap one to add it to your message. Needs a free GIPHY API key and TLSFix. Settings > Message GIFs.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Installed-Size: 168
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.messagegifs.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.messagegifs/depiction.html?b66b9f1950
+Filename: debs/com.mbucc9000.messagegifs_1.0.0_iphoneos-arm.deb
+Size: 59670
+MD5sum: f2a9799df72b7b1c5ae8c519d1bdb63f
+SHA1: d127c088eef98af312c3029f1469abbc9afa7824
+SHA256: 81a6c8a23723509833a6e4365a1b5862665a4a6656351c02ca060ad1c5a286ca
+
 Package: com.mbucc9000.mirrorfront
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -573,7 +591,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 904
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?ce72d1b694
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?a360cfe79c
 Filename: debs/com.mbucc9000.slopkit_1.0.8_iphoneos-arm.deb
 Size: 543708
 MD5sum: 9807e319f779d359a8e9cbb71a043803
