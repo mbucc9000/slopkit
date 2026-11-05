@@ -581,7 +581,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.8
+Version: 1.0.9
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -589,14 +589,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 904
+Installed-Size: 924
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?a360cfe79c
-Filename: debs/com.mbucc9000.slopkit_1.0.8_iphoneos-arm.deb
-Size: 543708
-MD5sum: 9807e319f779d359a8e9cbb71a043803
-SHA1: 84716081c1e10e0dde5351961e19467085724c1c
-SHA256: 29b841f635f1d7afc85050a797fca40056309bbb8732b7c3998dd1fe773444f4
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?f4b9dbc198
+Filename: debs/com.mbucc9000.slopkit_1.0.9_iphoneos-arm.deb
+Size: 558864
+MD5sum: 765755c2e32123f4833df7ad76c5ec26
+SHA1: 508926a778099ec3b732008938b4752434531a29
+SHA256: d8a6283989b2601582abfccddb7250f0f8c430d9c59519802d279bdf057efc78
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
