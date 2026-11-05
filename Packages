@@ -439,6 +439,24 @@ MD5sum: f2a9799df72b7b1c5ae8c519d1bdb63f
 SHA1: d127c088eef98af312c3029f1469abbc9afa7824
 SHA256: 81a6c8a23723509833a6e4365a1b5862665a4a6656351c02ca060ad1c5a286ca
 
+Package: com.mbucc9000.newmail
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: NewMail
+Description: Gmail-style inbox tabs for iOS 6 Mail. Mail is sorted into Primary, Social, Promotions, Updates and Forums, each a mailbox under All Inboxes with an unread count, plus a colored tab bar to switch between them. On Gmail accounts Gmail itself does the sorting, so it matches the Gmail app. A thread opens as one Gmail-style conversation with your own replies in it, you can copy text from any email, and the title switches between accounts. Settings > NewMail.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Installed-Size: 268
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.newmail.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.newmail/depiction.html?3cb863e6b3
+Filename: debs/com.mbucc9000.newmail_1.0.0_iphoneos-arm.deb
+Size: 70122
+MD5sum: f055d25a6e40be071855bc23266013db
+SHA1: f7fbb0268067c4eecbceb320fd89fd135da6bb3a
+SHA256: ffe991d19f5214c325c8aa6a5d4f1a36ca6406733ac0d51f4e617d679f82dbe2
+
 Package: com.mbucc9000.mirrorfront
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -581,7 +599,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.9
+Version: 1.0.10
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -589,14 +607,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 924
+Installed-Size: 940
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?f4b9dbc198
-Filename: debs/com.mbucc9000.slopkit_1.0.9_iphoneos-arm.deb
-Size: 558864
-MD5sum: 765755c2e32123f4833df7ad76c5ec26
-SHA1: 508926a778099ec3b732008938b4752434531a29
-SHA256: d8a6283989b2601582abfccddb7250f0f8c430d9c59519802d279bdf057efc78
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?54be8628b6
+Filename: debs/com.mbucc9000.slopkit_1.0.10_iphoneos-arm.deb
+Size: 573064
+MD5sum: 8e460cdee9be3495c2e5268f6c2a3367
+SHA1: a6aa12bbdfb0c828bc8ce5b7a7b8dc61d1874cc1
+SHA256: 2fb55a846eacb06766af19523d28044b8201748b6d692e451db636015727a5ed
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
