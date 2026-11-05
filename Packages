@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?43f65c5a51
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?e4ef2f718e
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -563,7 +563,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.3
+Version: 1.0.8
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -571,14 +571,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 784
+Installed-Size: 904
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?d8657c1623
-Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
-Size: 471610
-MD5sum: c0c6633409eb584f55cbf0ffade601da
-SHA1: 6ff65656705ae8549e352fece68e5c8511965ecd
-SHA256: 195cbd7e758a004792419e394500c360b3218f7768d86d01c3afc1cfed7e44c4
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?ce72d1b694
+Filename: debs/com.mbucc9000.slopkit_1.0.8_iphoneos-arm.deb
+Size: 543708
+MD5sum: 9807e319f779d359a8e9cbb71a043803
+SHA1: 84716081c1e10e0dde5351961e19467085724c1c
+SHA256: 29b841f635f1d7afc85050a797fca40056309bbb8732b7c3998dd1fe773444f4
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
@@ -592,7 +592,7 @@ Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
 Installed-Size: 34948
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.tigisoftware.filza.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?6b163af85c
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?9444535456
 Filename: debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
 Size: 13929994
 MD5sum: c68a629c82d46f5a49ec8c93b750bb92
