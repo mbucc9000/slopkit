@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?c8320a90bf
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?43f65c5a51
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -35,6 +35,24 @@ Size: 167818
 MD5sum: 254c169a3193ba1c0f370858306595c7
 SHA1: 216e9144658fccb7018af0fe98a1a5c3a3701958
 SHA256: 2c17b7d20db90c75f2d7d4c5096e2329dc16d5f1378b1c079a2e989dcaf545b9
+
+Package: com.mbucc9000.qrscanner
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: QR Scanner
+Description: A simple QR code scanner. Point the camera at a code to read it, then open the link, call the number, or copy the text. It can also read a QR code from a photo.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Utilities
+Depends: firmware (>= 6.0)
+Installed-Size: 180
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.qrscanner.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.qrscanner/depiction.html?ea31871d77
+Filename: debs/com.mbucc9000.qrscanner_1.0.0_iphoneos-arm.deb
+Size: 68554
+MD5sum: d244acd0e1502eccc0e99289ca54156c
+SHA1: b23a36edde975d3e7c415943135a2e5b1a094495
+SHA256: f166a93724c614db81e4fbd10f2824bc3c5af6ccbd6d15885c23ce6130de0a21
 
 Package: com.mbucc9000.keytick
 Version: 4.0.0
@@ -555,7 +573,7 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 784
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?0387143c27
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?d8657c1623
 Filename: debs/com.mbucc9000.slopkit_1.0.3_iphoneos-arm.deb
 Size: 471610
 MD5sum: c0c6633409eb584f55cbf0ffade601da
