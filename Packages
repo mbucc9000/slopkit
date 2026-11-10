@@ -260,6 +260,24 @@ MD5sum: a46bbbfd8c688cba0f42358394b7970d
 SHA1: a1e43339b3ca878f65534af6818fbc9e00a8be7e
 SHA256: f89669a004eefbc03a0e0e3ee5b6b455d5371aeb28504ed76dc6ff60408e934f
 
+Package: com.mbucc9000.cameralevel
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: CameraLevel
+Description: Adds the level from newer iPhones to the Camera grid. A line in the middle of the preview tilts as you tilt the phone and turns yellow when the shot is perfectly level. Shows whenever Grid is on.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 60
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.cameralevel.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.cameralevel/depiction.html?2b8352cbb2
+Filename: debs/com.mbucc9000.cameralevel_1.0.0_iphoneos-arm.deb
+Size: 8166
+MD5sum: 4c482ee8dc480e5082414e77d050af8d
+SHA1: 8f85db41801b84f614fb94c370425ce7fa287fe6
+SHA256: 0f0572f3ba17801b20bcdcfc4b1bde2fdf34cde7ca1af2cb33a85a6593122758
+
 Package: com.mbucc9000.sipphone
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -599,7 +617,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.10
+Version: 1.0.11
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -607,14 +625,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 940
+Installed-Size: 960
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?54be8628b6
-Filename: debs/com.mbucc9000.slopkit_1.0.10_iphoneos-arm.deb
-Size: 573064
-MD5sum: 8e460cdee9be3495c2e5268f6c2a3367
-SHA1: a6aa12bbdfb0c828bc8ce5b7a7b8dc61d1874cc1
-SHA256: 2fb55a846eacb06766af19523d28044b8201748b6d692e451db636015727a5ed
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?79236c5c98
+Filename: debs/com.mbucc9000.slopkit_1.0.11_iphoneos-arm.deb
+Size: 589064
+MD5sum: 57c4f73cb09a2ac9a2e120163563a1c6
+SHA1: e63da9c596aa6246dd4374db0bd732286708dbf9
+SHA256: 96b3c4a0a794d9c0d778ae9b48338a02b85fad7957bd766e093cba87d1d545c0
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
