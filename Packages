@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?e4ef2f718e
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?5165b72a1f
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -565,6 +565,41 @@ MD5sum: 28fa9ee355bafc20e67767bbdd37824c
 SHA1: a96b19bccf4789107a8a314720ac470631524309
 SHA256: 3bee9c8b50db060f25f1e02477b272a1dd38fe768fd8cc5d1a498c03f6f5d791
 
+Package: com.mbucc9000.keepcydia
+Version: 1.0.3
+Architecture: iphoneos-arm
+Name: KeepCydia
+Description: Cydia stays in the background when you press the home button instead of quitting, so it opens right where you left it with no "Reloading Data" wait. Uses Cydia's own iOS 8 background mode: it still reloads if packages change while it's away. iOS closes it like any other app if memory runs low. Installs Vnode Limit too, so Cydia refreshes don't run iOS 6 out of open files.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, com.mbucc9000.vnodelimit
+Installed-Size: 56
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.keepcydia.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.keepcydia/depiction.html?a839a3bc54
+Filename: debs/com.mbucc9000.keepcydia_1.0.3_iphoneos-arm.deb
+Size: 3164
+MD5sum: 609de10ec701e2d6e0c6015cb8bd741d
+SHA1: 5298cc5a30ec1af7cecce7039852dab577f7d27d
+SHA256: b2174ec773263882793952cfeeedf7f7bff57b4e7d511de31995d73b6fc701fd
+
+Package: com.mbucc9000.vnodelimit
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: Vnode Limit
+Description: Raises iOS 6's open-file (vnode) limit from 1250 to 3000 at every boot. With many tweaks, a Cydia refresh fills the stock table and iOS kills apps, Cydia included, to make room. Costs about 1 MB of kernel memory. Remove it and reboot to go back to 1250.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: System
+Depends: firmware (>= 6.0)
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.vnodelimit.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.vnodelimit/depiction.html?e32d33a7af
+Filename: debs/com.mbucc9000.vnodelimit_1.0.0_iphoneos-arm.deb
+Size: 1340
+MD5sum: d8a6c678f350cd8a8be71410c0b7b121
+SHA1: 9a415deb97fcbd0ff49e419ff195258e1bea476d
+SHA256: 79f8d16cbc44054a94972a0cd9d52e132595c79b0aab2156a0c5eb209c6e6e33
+
 Package: com.mbucc9000.flappybird60fps
 Version: 1.1.0-4
 Architecture: iphoneos-arm
@@ -617,7 +652,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.11
+Version: 1.0.12
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -625,14 +660,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 960
+Installed-Size: 1004
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?79236c5c98
-Filename: debs/com.mbucc9000.slopkit_1.0.11_iphoneos-arm.deb
-Size: 589064
-MD5sum: 57c4f73cb09a2ac9a2e120163563a1c6
-SHA1: e63da9c596aa6246dd4374db0bd732286708dbf9
-SHA256: 96b3c4a0a794d9c0d778ae9b48338a02b85fad7957bd766e093cba87d1d545c0
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?8a7e4e2727
+Filename: debs/com.mbucc9000.slopkit_1.0.12_iphoneos-arm.deb
+Size: 619372
+MD5sum: 6713ca3d84544ffb1402d8ec6b5562e1
+SHA1: 9ec629df23f3280a38671ea9bd6ec34d752f6350
+SHA256: fed11ddbb1da387a467108e5eacf5816efc1438ee4574a99fbf8e34280017ef9
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
@@ -646,7 +681,7 @@ Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
 Installed-Size: 34948
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.tigisoftware.filza.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?9444535456
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?bdbe51ee3c
 Filename: debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
 Size: 13929994
 MD5sum: c68a629c82d46f5a49ec8c93b750bb92
