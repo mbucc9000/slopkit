@@ -332,22 +332,22 @@ SHA1: d7e4762f94b8c461eb732894f9b71ff1bbd69290
 SHA256: 8d32cc819afe4a28c45ad93e4fdef00a939cb29df887483baed7160eed091e73
 
 Package: com.mbucc9000.reactions
-Version: 2.1.2
+Version: 2.3.0
 Architecture: iphoneos-arm
 Name: Reactions
-Description: Shows tapback reactions in iOS 6 Messages, in stock iOS 6 style. Reacting and swipe-to-reply are optional and off by default; they send plain text, not real reactions.
+Description: Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.
 Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 380
+Installed-Size: 460
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.reactions.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.reactions/depiction.html?94fac69f28
-Filename: debs/com.mbucc9000.reactions_2.1.2_iphoneos-arm.deb
-Size: 154032
-MD5sum: 7943ffd79de5b2e080ee3338172eaef5
-SHA1: 0d1ed194db11c860b20716a203d407ef64b2390d
-SHA256: 15b0f807f249cc5baadbd9f714f8be137364c05280079b3550602afa760a5842
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.reactions/depiction.html?5687cfcff4
+Filename: debs/com.mbucc9000.reactions_2.3.0_iphoneos-arm.deb
+Size: 175950
+MD5sum: 1d7b4e8fa33f361c2b85eb2cb85eb56f
+SHA1: 12e22641e012d0d04149a953cad7c7be10c45508
+SHA256: 447ebfd496b49a6e3ec22480f329a4836d824519028b9cf72f81e25050bed607
 
 Package: com.mbucc9000.apptime
 Version: 1.0.0
@@ -652,7 +652,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.12
+Version: 1.0.13
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -662,12 +662,12 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 1004
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?8a7e4e2727
-Filename: debs/com.mbucc9000.slopkit_1.0.12_iphoneos-arm.deb
-Size: 619372
-MD5sum: 6713ca3d84544ffb1402d8ec6b5562e1
-SHA1: 9ec629df23f3280a38671ea9bd6ec34d752f6350
-SHA256: fed11ddbb1da387a467108e5eacf5816efc1438ee4574a99fbf8e34280017ef9
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?4e6c296d34
+Filename: debs/com.mbucc9000.slopkit_1.0.13_iphoneos-arm.deb
+Size: 619492
+MD5sum: 6b2700fc3860557af9fd66672dc903b0
+SHA1: bb93809ced902418421ffc4f43ff2d63531757df
+SHA256: 4e32529c0f38e653bc6f9e2f30eae3f31990ff7d26599e5bf8d1b7a292a4eaeb
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
