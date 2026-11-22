@@ -11,7 +11,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?5165b72a1f
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?e4767d403b
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -330,6 +330,24 @@ Size: 7506
 MD5sum: a1e388d6fcbf2d25f9cf4aec597df730
 SHA1: d7e4762f94b8c461eb732894f9b71ff1bbd69290
 SHA256: 8d32cc819afe4a28c45ad93e4fdef00a939cb29df887483baed7160eed091e73
+
+Package: com.mbucc9000.messagesearch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Name: MessageSearch
+Description: Fast search in Messages, like newer iOS. Every matching message shows (not just one per conversation), with the words in bold, plus matching conversations up top. Tap a result to jump straight to that message. Uses its own on-phone index.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 96
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.messagesearch.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.messagesearch/depiction.html?f780ffe8ff
+Filename: debs/com.mbucc9000.messagesearch_1.0.0_iphoneos-arm.deb
+Size: 21886
+MD5sum: 9511075501673334b5ac0fe87a95f140
+SHA1: caf49af9d3f737636cef081d8a2da5dfa234fff5
+SHA256: aaee70c6ea0654e6bde816389bad31bf6a3fc207bb06c6579165899847b7d0ca
 
 Package: com.mbucc9000.reactions
 Version: 2.3.0
@@ -652,7 +670,7 @@ SHA1: c9941cab79e428759b463b45c85d4beec4ae80ea
 SHA256: 384dd12347af817f981aba3e2e3bfe29f9762e3ce4cc5155f19b43c568f4726a
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.13
+Version: 1.0.15
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -660,14 +678,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 1004
+Installed-Size: 1076
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?4e6c296d34
-Filename: debs/com.mbucc9000.slopkit_1.0.13_iphoneos-arm.deb
-Size: 619492
-MD5sum: 6b2700fc3860557af9fd66672dc903b0
-SHA1: bb93809ced902418421ffc4f43ff2d63531757df
-SHA256: 4e32529c0f38e653bc6f9e2f30eae3f31990ff7d26599e5bf8d1b7a292a4eaeb
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?243129b3d7
+Filename: debs/com.mbucc9000.slopkit_1.0.15_iphoneos-arm.deb
+Size: 669822
+MD5sum: e4e155e4bfa155628c4096590d85cfd8
+SHA1: 3e26dcf8f0cececfd2879edd3231a16ca217517e
+SHA256: 34049a9944fd23748af2f9ea4ae99b5ce568baeccd224129cf6a107f35b7c0c1
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
@@ -681,7 +699,7 @@ Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
 Installed-Size: 34948
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.tigisoftware.filza.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?bdbe51ee3c
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?3efce14e4e
 Filename: debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
 Size: 13929994
 MD5sum: c68a629c82d46f5a49ec8c93b750bb92
