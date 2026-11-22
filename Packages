@@ -488,7 +488,7 @@ SHA1: b23a36edde975d3e7c415943135a2e5b1a094495
 SHA256: f166a93724c614db81e4fbd10f2824bc3c5af6ccbd6d15885c23ce6130de0a21
 
 Package: com.mbucc9000.reactions
-Version: 2.3.0
+Version: 2.3.1
 Architecture: iphoneos-arm
 Name: Reactions
 Description: Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.
@@ -498,12 +498,12 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 460
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.reactions.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.reactions/depiction.html?5687cfcff4
-Filename: debs/com.mbucc9000.reactions_2.3.0_iphoneos-arm.deb
-Size: 175950
-MD5sum: 1d7b4e8fa33f361c2b85eb2cb85eb56f
-SHA1: 12e22641e012d0d04149a953cad7c7be10c45508
-SHA256: 447ebfd496b49a6e3ec22480f329a4836d824519028b9cf72f81e25050bed607
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.reactions/depiction.html?d052cd7329
+Filename: debs/com.mbucc9000.reactions_2.3.1_iphoneos-arm.deb
+Size: 178438
+MD5sum: 635726d23263b14a75b7d29bc16b0200
+SHA1: c1b8c51bf6828c599a546ba2419c5b485a164f44
+SHA256: a66584866fb59b641b7e216b36e3896c03dd18af174e4ac2afa409061988cef2
 
 Package: com.mbucc9000.sendlater
 Version: 1.0.0
@@ -542,7 +542,7 @@ SHA1: fa2a38cea043acb3ead8f581f1ccc97bf212dae4
 SHA256: b7c29b23937057450210d2c02a7cd55f4ed1dfd840459ee1fb6db13c74c08399
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.15
+Version: 1.0.16
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -552,12 +552,12 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 1076
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?243129b3d7
-Filename: debs/com.mbucc9000.slopkit_1.0.15_iphoneos-arm.deb
-Size: 669822
-MD5sum: e4e155e4bfa155628c4096590d85cfd8
-SHA1: 3e26dcf8f0cececfd2879edd3231a16ca217517e
-SHA256: 34049a9944fd23748af2f9ea4ae99b5ce568baeccd224129cf6a107f35b7c0c1
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?b1a80cde69
+Filename: debs/com.mbucc9000.slopkit_1.0.16_iphoneos-arm.deb
+Size: 669852
+MD5sum: c5aa2afde6032a2256b1f61191b56356
+SHA1: 33e064ded33b3c81ea9b16c503aeeba37503fca6
+SHA256: 38f1780531040a7a92e58a7d0371a2c204daf4299538d805a616b5766c574925
 
 Package: com.mbucc9000.smsrelay
 Version: 1.0.3
