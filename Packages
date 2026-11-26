@@ -156,7 +156,7 @@ Recommends: mobilesubstrate
 Replaces: com.mbucc9000.encoreicons
 Installed-Size: 2484
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.encore.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?e4767d403b
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.encore/depiction.html?315306a99b
 Filename: debs/Encore_1.7.0_iphoneos-arm.deb
 Size: 883184
 MD5sum: 9a854a422cae87e3eaa3f4646cb55581
@@ -175,7 +175,7 @@ Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
 Installed-Size: 34948
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.tigisoftware.filza.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?3efce14e4e
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.tigisoftware.filza/depiction.html?203a5cc830
 Filename: debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
 Size: 13929994
 MD5sum: c68a629c82d46f5a49ec8c93b750bb92
@@ -250,6 +250,24 @@ Size: 13188
 MD5sum: 0355eeacc313027f50f245f730509ab7
 SHA1: f6f7d745f96bcc480fa1a0cdc2d3428f09bf749f
 SHA256: 851e21cc5c2cf5c10498c78d890b1a968d6ce624e822523deee48c1296a9af42
+
+Package: com.mbucc9000.groupsearch
+Version: 1.0.1
+Architecture: iphoneos-arm
+Name: GroupSearch
+Description: Type a group chat's name in the To: field of a new message and the group shows up in the suggestions. Tap it to add everyone in it. Uses names from GroupChatNameFix.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 56
+Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.groupsearch.png
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.groupsearch/depiction.html?949d96c08c
+Filename: debs/com.mbucc9000.groupsearch_1.0.1_iphoneos-arm.deb
+Size: 8418
+MD5sum: c0cec7079d6a986aee58317138482835
+SHA1: 2ae3e6eaceb2a210047f6559131c0a0ea795b9fb
+SHA256: f427c4754282ea8238681bf9c85df078d3f5d854bc3909fd848469dc17d55eb0
 
 Package: com.mbucc9000.heicfix
 Version: 1.0.0
@@ -542,7 +560,7 @@ SHA1: fa2a38cea043acb3ead8f581f1ccc97bf212dae4
 SHA256: b7c29b23937057450210d2c02a7cd55f4ed1dfd840459ee1fb6db13c74c08399
 
 Package: com.mbucc9000.slopkit
-Version: 1.0.16
+Version: 1.0.17
 Architecture: iphoneos-arm
 Name: slopkit Settings
 Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
@@ -550,14 +568,14 @@ Author: mbucc9000
 Maintainer: mbucc9000
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 1076
+Installed-Size: 1100
 Icon: https://mbucc9000.github.io/slopkit/assets/icons/com.mbucc9000.slopkit.png
-Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?b1a80cde69
-Filename: debs/com.mbucc9000.slopkit_1.0.16_iphoneos-arm.deb
-Size: 669852
-MD5sum: c5aa2afde6032a2256b1f61191b56356
-SHA1: 33e064ded33b3c81ea9b16c503aeeba37503fca6
-SHA256: 38f1780531040a7a92e58a7d0371a2c204daf4299538d805a616b5766c574925
+Depiction: https://mbucc9000.github.io/slopkit/pkg/com.mbucc9000.slopkit/depiction.html?1a5199c0ee
+Filename: debs/com.mbucc9000.slopkit_1.0.17_iphoneos-arm.deb
+Size: 689236
+MD5sum: d8370cef822dd8d4e69bc7d4cdbf8c26
+SHA1: a8eac1b33b6372a511f683f3e1d5799e8de886a2
+SHA256: 0f4d372620c75441be97395a2b118e893419678c5f1da79bd713d11cb3cdae7d
 
 Package: com.mbucc9000.smsrelay
 Version: 1.0.3
